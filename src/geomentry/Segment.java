@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class Segment {
     private Side side1;
     private Side side2;
-    private int count;
+    private int count = 10;
     private Line lines[];
     private int color;
 
@@ -65,5 +65,9 @@ public class Segment {
 
     public void setColor(int color) {
         this.color = color;
+    }
+
+    public Line[] getLines() {
+        return lines;
     }
 }

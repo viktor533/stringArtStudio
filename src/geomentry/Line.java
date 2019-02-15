@@ -3,15 +3,13 @@ package geomentry;
 import java.util.Iterator;
 
 public class Line extends Side {
-    private Point A;
-    private Point B;
 
     public Line() {
         A = new Point();
         B = new Point();
     }
 
-    public Line(double x1, double y1, double x2, double y2) {
+    public Line(int x1, int y1, int x2, int y2) {
         A = new Point(x1, y1);
         B = new Point(x2, y2);
     }

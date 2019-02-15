@@ -1,4 +1,5 @@
 import geomentry.*;
+import windows.MainWindow;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +11,9 @@ public class Main {
         } catch (CalculateGeometryException e) {
             System.out.println(e.getMessage());
         }
+
+        MainWindow s = new MainWindow();
+        s.setVisible(true);
 
     }
 }

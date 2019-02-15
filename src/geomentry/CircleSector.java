@@ -9,9 +9,6 @@ public class CircleSector extends Side {
     private double angleA;
     private double angleB;
 
-    private Point A;
-    private Point B;
-
     public CircleSector() {
 
     }
